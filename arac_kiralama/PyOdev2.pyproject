@@ -1,0 +1,10 @@
+{
+    "files": [
+        "widget.py",
+        "form.ui",
+        "musteri.ui",
+        "araclar.ui",
+        "kiralama.ui",
+        "kiradaolanlar.ui"
+    ]
+}

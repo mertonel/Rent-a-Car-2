@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>musteri</class>
+ <widget class="QWidget" name="musteri">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>637</width>
+    <height>431</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>310</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Kaydet</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 14pt &quot;Segoe UI&quot;;
+color:rgb(0, 0, 255);</string>
+   </property>
+   <property name="text">
+    <string>Müşteri Ekle</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>100</y>
+     <width>234</width>
+     <height>148</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;Segoe UI&quot;;
+color:rgb(0, 170, 0);</string>
+        </property>
+        <property name="text">
+         <string>Telefon</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;Segoe UI&quot;;
+color:rgb(0, 170, 0);</string>
+        </property>
+        <property name="text">
+         <string>Meslek</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;Segoe UI&quot;;
+color:rgb(0, 170, 0);</string>
+        </property>
+        <property name="text">
+         <string>Ehliyet Bilgileri</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;Segoe UI&quot;;
+color:rgb(0, 170, 0);</string>
+        </property>
+        <property name="text">
+         <string>Medeni Durum</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;Segoe UI&quot;;
+color:rgb(0, 170, 0);</string>
+        </property>
+        <property name="text">
+         <string>Eğitim Durumu</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="lineEditTelefon"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditMeslek"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditEhliyet"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditMedeni"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditEgitim"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>83</x>
+     <y>103</y>
+     <width>221</width>
+     <height>149</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;Segoe UI&quot;;
+color:rgb(0, 170, 0);</string>
+        </property>
+        <property name="text">
+         <string>TC kimlik no</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;Segoe UI&quot;;
+color:rgb(0, 170, 0);</string>
+        </property>
+        <property name="text">
+         <string>Ad</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;Segoe UI&quot;;
+color:rgb(0, 170, 0);</string>
+        </property>
+        <property name="text">
+         <string>Soyad</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;Segoe UI&quot;;
+color:rgb(0, 170, 0);</string>
+        </property>
+        <property name="text">
+         <string>Doğum Tarihi</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;Segoe UI&quot;;
+color:rgb(0, 170, 0);</string>
+        </property>
+        <property name="text">
+         <string>Adres</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLineEdit" name="lineEditTc"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditAd"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditSoyad"/>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="dateEditDogum"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditAdres"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

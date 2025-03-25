@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>732</width>
+    <height>474</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>0</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 17pt &quot;Segoe UI&quot;;
+color:rgb(0, 0, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>Kiralama  Listesi</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>701</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>İd</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Müşteri Ad</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Müşteri Soyad</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Araç Marka</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Araç Model</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kira Başlangıç Tar.</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kira Bitiş Tar.</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
